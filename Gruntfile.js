@@ -27,13 +27,13 @@ module.exports = function(grunt){
     concat: {
       vendor: {
         src: [
-          "js/lib/modernizr/modernizr.js",
-          "js/lib/jquery/dist/jquery.js"
+          "_js/lib/modernizr/modernizr.js",
+          "_js/lib/jquery/dist/jquery.js"
           ],
         dest: "js/vendors.js"
       },
       app: {
-        src: "js/**/*.js",
+        src: "_js/app.js",
         dest: "js/app.js"
       }
     }
