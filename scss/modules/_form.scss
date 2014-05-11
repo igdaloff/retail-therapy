@@ -5,6 +5,10 @@
 	width: 33.33333333%;
 	margin: 0 auto;
 
+	@include smaller-than(large){
+		width: 90%;
+	}
+
 	h1{
 		margin-bottom: 1em;
 	}
@@ -20,15 +24,29 @@
 		width: 25%;
 		padding-right: 1em;
 		text-align: right;
+
+		@include smaller-than(large){
+			float: none;
+			text-align: left;
+		}
 	}
 
 	.form-control{
 		float: left;
 		width: 75%;
+
+		@include smaller-than(large){
+			float: none;
+			width: 100%;
+		}
 	}
 
-	button{
+	.btn{
 		float: right;
 		width: 75%;
+
+		@include smaller-than(large){
+			width: 100%;
+		}
 	}
 }

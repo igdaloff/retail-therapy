@@ -13,10 +13,17 @@
   <form class="main-form" action="dispatch.aspx" role="form">
     <h1>Retail Therapy</h1>
     <ul>
-      <li><label>Address:</label><input class="form-control" type="text" name="address" /></li>
-      <li><label>Zip:</label><input class="form-control" type="text" name="zip" /></li>
+      <li>
+        <label>Address:</label>
+        <input class="form-control" type="text" name="address" />
+      </li>
+      <li>
+        <label>Zip:</label>
+        <input class="form-control" type="text" name="zip" />
+      </li>
+    </ul>
       <input type="hidden" name="option1" value="123"/>
-    <button class="btn btn-primary">Submit</button>
+      <input class="btn btn-primary" type="submit" value="Submit"/>
   </form>
 
    <script src="js/app.js"></script>

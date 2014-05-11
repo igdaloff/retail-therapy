@@ -751,9 +751,8 @@ a.bg-danger:hover {
 ul,
 ol {
   margin-top: 0;
-  margin-bottom: 10px;
 }
-/* line 143, ../../../scss/common/bootstrap/_type.scss */
+/* line 142, ../../../scss/common/bootstrap/_type.scss */
 ul ul,
 ul ol,
 ol ul,
@@ -761,47 +760,47 @@ ol ol {
   margin-bottom: 0;
 }
 
-/* line 151, ../../../scss/common/bootstrap/_type.scss */
+/* line 150, ../../../scss/common/bootstrap/_type.scss */
 .list-unstyled, .list-inline {
   padding-left: 0;
   list-style: none;
 }
 
-/* line 157, ../../../scss/common/bootstrap/_type.scss */
+/* line 156, ../../../scss/common/bootstrap/_type.scss */
 .list-inline {
   margin-left: -5px;
 }
-/* line 161, ../../../scss/common/bootstrap/_type.scss */
+/* line 160, ../../../scss/common/bootstrap/_type.scss */
 .list-inline > li {
   display: inline-block;
   padding-left: 5px;
   padding-right: 5px;
 }
 
-/* line 169, ../../../scss/common/bootstrap/_type.scss */
+/* line 168, ../../../scss/common/bootstrap/_type.scss */
 dl {
   margin-top: 0;
   margin-bottom: 20px;
 }
 
-/* line 174, ../../../scss/common/bootstrap/_type.scss */
+/* line 173, ../../../scss/common/bootstrap/_type.scss */
 dt,
 dd {
   line-height: 1.42857;
 }
 
-/* line 177, ../../../scss/common/bootstrap/_type.scss */
+/* line 176, ../../../scss/common/bootstrap/_type.scss */
 dt {
   font-weight: bold;
 }
 
-/* line 180, ../../../scss/common/bootstrap/_type.scss */
+/* line 179, ../../../scss/common/bootstrap/_type.scss */
 dd {
   margin-left: 0;
 }
 
 @media (min-width: 768px) {
-  /* line 191, ../../../scss/common/bootstrap/_type.scss */
+  /* line 190, ../../../scss/common/bootstrap/_type.scss */
   .dl-horizontal dt {
     float: left;
     width: 160px;
@@ -811,7 +810,7 @@ dd {
     text-overflow: ellipsis;
     white-space: nowrap;
   }
-  /* line 198, ../../../scss/common/bootstrap/_type.scss */
+  /* line 197, ../../../scss/common/bootstrap/_type.scss */
   .dl-horizontal dd {
     margin-left: 180px;
   }
@@ -825,33 +824,33 @@ dd {
     clear: both;
   }
 }
-/* line 211, ../../../scss/common/bootstrap/_type.scss */
+/* line 210, ../../../scss/common/bootstrap/_type.scss */
 abbr[title],
 abbr[data-original-title] {
   cursor: help;
   border-bottom: 1px dotted #999999;
 }
 
-/* line 215, ../../../scss/common/bootstrap/_type.scss */
+/* line 214, ../../../scss/common/bootstrap/_type.scss */
 .initialism {
   font-size: 90%;
   text-transform: uppercase;
 }
 
-/* line 221, ../../../scss/common/bootstrap/_type.scss */
+/* line 220, ../../../scss/common/bootstrap/_type.scss */
 blockquote {
   padding: 10px 20px;
   margin: 0 0 20px;
   font-size: 17.5px;
   border-left: 5px solid #eeeeee;
 }
-/* line 230, ../../../scss/common/bootstrap/_type.scss */
+/* line 229, ../../../scss/common/bootstrap/_type.scss */
 blockquote p:last-child,
 blockquote ul:last-child,
 blockquote ol:last-child {
   margin-bottom: 0;
 }
-/* line 239, ../../../scss/common/bootstrap/_type.scss */
+/* line 238, ../../../scss/common/bootstrap/_type.scss */
 blockquote footer,
 blockquote small,
 blockquote .small {
@@ -860,14 +859,14 @@ blockquote .small {
   line-height: 1.42857;
   color: #999999;
 }
-/* line 245, ../../../scss/common/bootstrap/_type.scss */
+/* line 244, ../../../scss/common/bootstrap/_type.scss */
 blockquote footer:before,
 blockquote small:before,
 blockquote .small:before {
   content: '\2014 \00A0';
 }
 
-/* line 255, ../../../scss/common/bootstrap/_type.scss */
+/* line 254, ../../../scss/common/bootstrap/_type.scss */
 .blockquote-reverse,
 blockquote.pull-right {
   padding-right: 15px;
@@ -876,7 +875,7 @@ blockquote.pull-right {
   border-left: 0;
   text-align: right;
 }
-/* line 266, ../../../scss/common/bootstrap/_type.scss */
+/* line 265, ../../../scss/common/bootstrap/_type.scss */
 .blockquote-reverse footer:before,
 .blockquote-reverse small:before,
 .blockquote-reverse .small:before,
@@ -885,7 +884,7 @@ blockquote.pull-right small:before,
 blockquote.pull-right .small:before {
   content: '';
 }
-/* line 267, ../../../scss/common/bootstrap/_type.scss */
+/* line 266, ../../../scss/common/bootstrap/_type.scss */
 .blockquote-reverse footer:after,
 .blockquote-reverse small:after,
 .blockquote-reverse .small:after,
@@ -895,13 +894,13 @@ blockquote.pull-right .small:after {
   content: '\00A0 \2014';
 }
 
-/* line 275, ../../../scss/common/bootstrap/_type.scss */
+/* line 274, ../../../scss/common/bootstrap/_type.scss */
 blockquote:before,
 blockquote:after {
   content: "";
 }
 
-/* line 280, ../../../scss/common/bootstrap/_type.scss */
+/* line 279, ../../../scss/common/bootstrap/_type.scss */
 address {
   margin-bottom: 20px;
   font-style: normal;
