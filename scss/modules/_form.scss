@@ -1,0 +1,34 @@
+// =======================
+// Form
+// =======================
+.main-form{
+	width: 33.33333333%;
+	margin: 0 auto;
+
+	h1{
+		margin-bottom: 1em;
+	}
+
+	li{
+		display: inline-block;
+		width: 100%;
+		margin-bottom: 1em;
+	}
+
+	label{
+		float: left;
+		width: 25%;
+		padding-right: 1em;
+		text-align: right;
+	}
+
+	.form-control{
+		float: left;
+		width: 75%;
+	}
+
+	button{
+		float: right;
+		width: 75%;
+	}
+}
