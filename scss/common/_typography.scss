@@ -1,0 +1,15 @@
+// =======================
+// Typography
+// =======================
+$sans:						400 1em 'Raleway', helvetica, sans-serif;
+$sans-bold:				700 1em 'Raleway', helvetica, sans-serif;
+$serif: 					normal 1em georgia, serif;
+
+h1, h2, h3, h4, h5{
+	font: $sans-bold;
+}
+
+p{
+	font: $serif;
+	font-size: 1.4em;
+}

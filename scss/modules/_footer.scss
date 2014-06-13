@@ -1,0 +1,49 @@
+// =======================
+// Footer
+// =======================
+footer{
+	display: block;
+	width: 100%;
+	padding-top: 1em;
+	margin-top: 1em;
+
+	.wrapper{
+		border-top: 4px solid $red;
+	}
+
+	ul{
+		@extend .clearfix;
+	}
+
+	li{
+		float: left;
+		max-width: 16.6666667%;
+		line-height: 60px;
+
+		&+li{
+			padding-left: 5%;
+		}
+
+		img{
+			width: 100%;
+		}
+	}
+}
+
+.footer-disclaimer{
+	border-top: 1px solid #ccc;
+	padding-top: 1em;
+	margin-top: 1em;
+}
+
+.footer-admin{
+	text-align: center;
+	border-top: 1px solid #ccc;
+	padding-top: 1em;
+	margin-top: 1em;
+
+	small{
+		display: block;
+		margin: 1em 0;
+	}
+}

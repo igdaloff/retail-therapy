@@ -27,12 +27,6 @@
     }
   }
 
-  &:hover,
-  &:focus {
-    color: $btn-default-color;
-    text-decoration: none;
-  }
-
   &:active,
   &.active {
     outline: 0;
@@ -94,26 +88,6 @@
   fieldset[disabled] & {
     background-color: transparent;
     @include box-shadow(none);
-  }
-  &,
-  &:hover,
-  &:focus,
-  &:active {
-    border-color: transparent;
-  }
-  &:hover,
-  &:focus {
-    color: $link-hover-color;
-    text-decoration: underline;
-    background-color: transparent;
-  }
-  &[disabled],
-  fieldset[disabled] & {
-    &:hover,
-    &:focus {
-      color: $btn-link-disabled-color;
-      text-decoration: none;
-    }
   }
 }
 

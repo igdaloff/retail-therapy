@@ -1,0 +1,14 @@
+// =======================
+// Form Elements
+// =======================
+.btn, button{
+	font: $sans-bold;
+	color: white;
+	background: $teal;
+	@extend .transition;
+
+	&:hover{
+		background: darken($teal, 10%);
+		color: white;
+	}
+}

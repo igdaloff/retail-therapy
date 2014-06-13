@@ -1,0 +1,27 @@
+// ========================
+// $Global Reusable Classes
+// ========================
+
+// $CLEARFIX
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  visibility: hidden;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+
+
+
+// $TRANSITIONS
+.transition{
+	-webkit-transition: 0.2s all ease;
+	-moz-transition:		0.2s all ease;
+	-o-transition: 			0.2s all ease;
+	-ms-transition: 		0.2s all ease;
+	transition: 				0.2s all ease;
+}

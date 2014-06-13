@@ -1,0 +1,29 @@
+// =======================
+// Form
+// =======================
+.main-form{
+	width: 100%;
+
+	@include larger-than(large){
+		width: 50%;
+		float: left;
+	}
+
+	li{
+		display: inline-block;
+		width: 100%;
+		margin-bottom: 1em;
+	}
+
+	label{
+		display: block;
+	}
+
+	input{
+		width: 100%;
+
+		@include larger-than(large){
+			width: 66.66666667%;
+		}
+	}
+}
