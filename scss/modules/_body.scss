@@ -1,5 +1,5 @@
 // =======================
-// Form
+// Body
 // =======================
 .main-form{
 	width: 100%;
@@ -25,5 +25,15 @@
 		@include larger-than(large){
 			width: 66.66666667%;
 		}
+	}
+}
+
+.main-copy{
+	padding-top: 2em;
+
+	@include larger-than(large){
+		width: 50%;
+		float: left;
+		padding-right: 5%;
 	}
 }

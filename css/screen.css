@@ -6,7 +6,7 @@ h1, h2, h3, h4, h5 {
 /* line 12, ../scss/common/_typography.scss */
 p {
   font: normal 1em georgia, serif;
-  font-size: 1.4em;
+  font-size: 1.3em;
 }
 
 /* line 7, ../scss/common/_classes.scss */
@@ -7860,6 +7860,19 @@ button.close {
   }
 }
 
+/* line 31, ../scss/modules/_body.scss */
+.main-copy {
+  padding-top: 2em;
+}
+@media (min-width: 50em) {
+  /* line 31, ../scss/modules/_body.scss */
+  .main-copy {
+    width: 50%;
+    float: left;
+    padding-right: 5%;
+  }
+}
+
 /* line 4, ../scss/modules/_header.scss */
 header {
   padding: 1em 0;
@@ -7871,17 +7884,17 @@ header {
     text-align: center;
   }
 }
-/* line 11, ../scss/modules/_header.scss */
+/* line 12, ../scss/modules/_header.scss */
 header h1 {
   position: absolute;
   left: -9999em;
 }
-/* line 16, ../scss/modules/_header.scss */
+/* line 17, ../scss/modules/_header.scss */
 header img {
   width: 100%;
 }
 @media (min-width: 40em) {
-  /* line 16, ../scss/modules/_header.scss */
+  /* line 17, ../scss/modules/_header.scss */
   header img {
     width: 220px;
   }

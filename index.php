@@ -19,6 +19,10 @@
   </header>
 
   <div class="wrapper main-content">
+    <div class="main-copy">
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+      <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto.</p>
+    </div>
     <form class="main-form" action="dispatch.aspx" role="form">
       <div class="form-instructions">
         <h2>Find the best offers below!</h2>
