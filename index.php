@@ -10,18 +10,70 @@
 
     <!-- Webfonts -->
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
+
+    <!-- Javascript -->
+    <script src="js/vendors.js"></script>
+
   </head>
   <body>
 
   <header class="wrapper">
     <h1>Retail Therapy</h1>
     <img src="images/main-logo.png" alt="Retail Therapy logo" />
+    <div class="signup-form-container">
+      <span class="signup-btn"><span>Sign Up</span></span>
+      <form id="form1" name="form1" class="signup-form" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate action="https://igdaloff.wufoo.com/forms/zity6i90wiien4/#public">
+        <ul>
+          <li id="foli114" class="form-row">
+            <label for="Field114">Name</label>
+            <div class="half">
+              <input id="Field117" name="Field117" type="text" class="input-field" value="" maxlength="255" tabindex="1" onkeyup="" required placeholder="Full name" />
+            </div>
+          </li>
+
+          <li id="foli8" class="form-row">
+            <label class="desc" id="title8" for="Field8">Email</label>
+            <input id="Field8" name="Field8" type="email" spellcheck="false" class="input-field text medium" value="" maxlength="255" tabindex="3" required placeholder="email@address.com"/>
+          </li>
+
+          <li id="foli9" class="phone form-row">
+            <label class="desc" id="title9" for="Field9">Phone Number</label>
+            <input id="Field9" name="Field9" type="tel" class="input-field text" value="" size="3" maxlength="3" tabindex="4" required placeholder="###" />
+            <span class="symbol">-</span>
+            <input id="Field9-1" name="Field9-1" type="tel" class="input-field text" value="" size="3" maxlength="3" tabindex="5" required placeholder="###" />
+            <span class="symbol">-</span>
+            <input id="Field9-2" name="Field9-2" type="tel" class="input-field text" value="" size="4" maxlength="4" tabindex="6" required placeholder="####" />
+          </li>
+
+          <li id="foli10" class="form-row">
+            <fieldset>
+              <input id="Field10" name="Field10" type="checkbox" class="checkbox" value="I have read the Terms of Agreement" tabindex="7" />
+              <label class="choice" for="Field10">I have read the Terms of Agreement</label>
+            </fieldset>
+          </li>
+
+          <li>
+            <input id="saveForm" name="saveForm" class="btn btn-white submit" type="submit" value="Submit" />
+          </li>
+
+          <li class="hide">
+            <label for="comment">Do Not Fill This Out</label>
+            <textarea name="comment" id="comment" rows="1" cols="1"></textarea>
+            <input type="hidden" id="idstamp" name="idstamp" value="CCnJCfzeRRWUsnb3CBBDM90MueoS+zgiQGw/b1iGYqE=" />
+          </li>
+        </ul>
+      </form>
+      <span class="close-signup-form">&times;</span>
+    </div>
   </header>
 
   <div class="wrapper main-content">
     <div class="main-copy">
-      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-      <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto.</p>
+      <p>The days of cold calling and bake sales are over. The future of fundraising is in eCommerce and Retail Therapy For Charity offers organizations a focused, efficient way to earn and grow.</p>
+      <p>Retail Therapy For Charity has partnered with dozens of telecommunications companies to encourage donors to buy services they already use: cable, internet, and telephone. Organizations earn up to $110 of each order and advocates get the satisfaction of supporting their cause while saving money (most services are sold at the guaranteed lowest rates).</p>
+      <p>Retail Therapy For Charity is truly a risk-free fundraising tool for groups and donors. There's no cost to join, no hidden fees down the road, and no pressure to sell. Organizations simply earn based on what their donors choose to buy.</p>
+      <p>With so many groups competing for attention, Retail Therapy For Charity makes donating to your organization the easy and obvious choice.</p>
+      <p>Questions? Contact us directly at 614-769-7832 or email us.</p>
     </div>
     <form class="main-form" action="dispatch.aspx" role="form">
       <div class="form-instructions">
@@ -64,6 +116,5 @@
     </div>
   </footer>
    <script src="js/app.js"></script>
-   <script src="js/vendors.js"></script>
   </body>
 </html>

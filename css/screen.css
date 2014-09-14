@@ -1,282 +1,3 @@
-/* line 8, ../scss/common/_typography.scss */
-h1, h2, h3, h4, h5 {
-  font: 700 1em "Raleway", helvetica, sans-serif;
-}
-
-/* line 12, ../scss/common/_typography.scss */
-p {
-  font: normal 1em georgia, serif;
-  font-size: 1.3em;
-}
-
-/* line 7, ../scss/common/_classes.scss */
-.clearfix:before, .wrapper:before, footer ul:before,
-.clearfix:after,
-.wrapper:after,
-footer ul:after {
-  display: table;
-  content: "";
-  visibility: hidden;
-}
-
-/* line 13, ../scss/common/_classes.scss */
-.clearfix:after, .wrapper:after, footer ul:after {
-  clear: both;
-}
-
-/* line 21, ../scss/common/_classes.scss */
-.transition, .btn, button {
-  -webkit-transition: 0.2s all ease;
-  -moz-transition: 0.2s all ease;
-  -o-transition: 0.2s all ease;
-  -ms-transition: 0.2s all ease;
-  transition: 0.2s all ease;
-}
-
-/* line 4, ../scss/common/_layout.scss */
-.wrapper {
-  width: 80%;
-  margin: 0 auto;
-}
-
-/* line 4, ../scss/common/_form-elements.scss */
-.btn, button {
-  font: 700 1em "Raleway", helvetica, sans-serif;
-  color: white;
-  background: #74c9bd;
-}
-/* line 10, ../scss/common/_form-elements.scss */
-.btn:hover, button:hover {
-  background: #4fbbac;
-  color: white;
-}
-
-/* line 16, ../scss/base/_normalize.scss */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-main,
-nav,
-section,
-summary {
-  display: block;
-}
-
-/* line 23, ../scss/base/_normalize.scss */
-audio,
-canvas,
-video {
-  display: inline-block;
-}
-
-/* line 29, ../scss/base/_normalize.scss */
-audio:not([controls]) {
-  display: none;
-  height: 0;
-}
-
-/* line 37, ../scss/base/_normalize.scss */
-[hidden],
-template {
-  display: none;
-}
-
-/* line 47, ../scss/base/_normalize.scss */
-* {
-  margin: 0;
-  padding: 0;
-}
-
-/* line 52, ../scss/base/_normalize.scss */
-html {
-  font-size: 1em;
-  line-height: 1.5;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  text-rendering: optimizeLegibility;
-  color: #222;
-}
-
-/* line 61, ../scss/base/_normalize.scss */
-body {
-  margin: 0;
-}
-
-/* line 73, ../scss/base/_normalize.scss */
-a {
-  background: transparent;
-  text-decoration: none;
-  color: inherit;
-}
-
-/* line 80, ../scss/base/_normalize.scss */
-a:focus {
-  outline: thin dotted;
-}
-
-/* line 86, ../scss/base/_normalize.scss */
-a:active,
-a:hover {
-  outline: 0;
-}
-
-/* line 96, ../scss/base/_normalize.scss */
-ul, li {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-/* line 110, ../scss/base/_normalize.scss */
-abbr[title] {
-  border-bottom: 1px dotted;
-}
-
-/* line 116, ../scss/base/_normalize.scss */
-b,
-strong {
-  font-weight: bold;
-}
-
-/* line 121, ../scss/base/_normalize.scss */
-q {
-  quotes: "\201C" "\201D" "\2018" "\2019";
-}
-
-/* line 127, ../scss/base/_normalize.scss */
-sub,
-sup {
-  font-size: 75%;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline;
-}
-
-/* line 134, ../scss/base/_normalize.scss */
-sup {
-  top: -0.5em;
-}
-
-/* line 138, ../scss/base/_normalize.scss */
-sub {
-  bottom: -0.25em;
-}
-
-/* line 150, ../scss/base/_normalize.scss */
-img {
-  border: 0;
-}
-
-/* line 155, ../scss/base/_normalize.scss */
-svg:not(:root) {
-  overflow: hidden;
-}
-
-/* line 167, ../scss/base/_normalize.scss */
-figure {
-  margin: 0;
-}
-
-/* line 180, ../scss/base/_normalize.scss */
-legend {
-  border: 0;
-  padding: 0;
-}
-
-/* line 191, ../scss/base/_normalize.scss */
-button,
-input,
-select,
-textarea {
-  font-family: inherit;
-  font-size: 100%;
-  margin: 0;
-}
-
-/* line 200, ../scss/base/_normalize.scss */
-button,
-input {
-  line-height: normal;
-}
-
-/* line 209, ../scss/base/_normalize.scss */
-button,
-select {
-  text-transform: none;
-}
-
-/* line 221, ../scss/base/_normalize.scss */
-button,
-html input[type="button"],
-input[type="reset"],
-input[type="submit"] {
-  -webkit-appearance: button;
-  cursor: pointer;
-}
-
-/* line 228, ../scss/base/_normalize.scss */
-button[disabled],
-html input[disabled] {
-  cursor: default;
-}
-
-/* line 235, ../scss/base/_normalize.scss */
-input[type="checkbox"],
-input[type="radio"] {
-  box-sizing: border-box;
-  padding: 0;
-}
-
-/* line 243, ../scss/base/_normalize.scss */
-input[type="search"] {
-  -webkit-appearance: textfield;
-  -moz-box-sizing: content-box;
-  -webkit-box-sizing: content-box;
-  box-sizing: content-box;
-}
-
-/* line 253, ../scss/base/_normalize.scss */
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none;
-}
-
-/* line 259, ../scss/base/_normalize.scss */
-button::-moz-focus-inner,
-input::-moz-focus-inner {
-  border: 0;
-  padding: 0;
-}
-
-/* line 266, ../scss/base/_normalize.scss */
-textarea {
-  overflow: auto;
-  vertical-align: top;
-}
-
-/* line 279, ../scss/base/_normalize.scss */
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-/* line 290, ../scss/base/_normalize.scss */
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-/* line 4, ../scss/base/_base.scss */
-body {
-  font: 400 1em "Raleway", helvetica, sans-serif;
-}
-
 /* normalize.css v3.0.0 | MIT License | git.io/normalize */
 /* line 9, ../scss/common/bootstrap/_normalize.scss */
 html {
@@ -3103,20 +2824,7 @@ select[multiple].input-lg,
   -ms-user-select: none;
   user-select: none;
 }
-/* line 25, ../scss/common/bootstrap/_buttons.scss */
-.btn:focus, .btn:active:focus, .btn.active:focus {
-  outline: thin dotted;
-  outline: 5px auto -webkit-focus-ring-color;
-  outline-offset: -2px;
-}
-/* line 31, ../scss/common/bootstrap/_buttons.scss */
-.btn:active, .btn.active {
-  outline: 0;
-  background-image: none;
-  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-}
-/* line 39, ../scss/common/bootstrap/_buttons.scss */
+/* line 24, ../scss/common/bootstrap/_buttons.scss */
 .btn.disabled, .btn[disabled], fieldset[disabled] .btn {
   cursor: not-allowed;
   pointer-events: none;
@@ -3126,7 +2834,7 @@ select[multiple].input-lg,
   box-shadow: none;
 }
 
-/* line 51, ../scss/common/bootstrap/_buttons.scss */
+/* line 36, ../scss/common/bootstrap/_buttons.scss */
 .btn-default {
   color: #333333;
   background-color: white;
@@ -3163,7 +2871,7 @@ select[multiple].input-lg,
   background-color: #333333;
 }
 
-/* line 54, ../scss/common/bootstrap/_buttons.scss */
+/* line 39, ../scss/common/bootstrap/_buttons.scss */
 .btn-primary {
   color: white;
   background-color: #428bca;
@@ -3200,7 +2908,7 @@ select[multiple].input-lg,
   background-color: white;
 }
 
-/* line 58, ../scss/common/bootstrap/_buttons.scss */
+/* line 43, ../scss/common/bootstrap/_buttons.scss */
 .btn-success {
   color: white;
   background-color: #5cb85c;
@@ -3237,7 +2945,7 @@ select[multiple].input-lg,
   background-color: white;
 }
 
-/* line 62, ../scss/common/bootstrap/_buttons.scss */
+/* line 47, ../scss/common/bootstrap/_buttons.scss */
 .btn-info {
   color: white;
   background-color: #5bc0de;
@@ -3274,7 +2982,7 @@ select[multiple].input-lg,
   background-color: white;
 }
 
-/* line 66, ../scss/common/bootstrap/_buttons.scss */
+/* line 51, ../scss/common/bootstrap/_buttons.scss */
 .btn-warning {
   color: white;
   background-color: #f0ad4e;
@@ -3311,7 +3019,7 @@ select[multiple].input-lg,
   background-color: white;
 }
 
-/* line 70, ../scss/common/bootstrap/_buttons.scss */
+/* line 55, ../scss/common/bootstrap/_buttons.scss */
 .btn-danger {
   color: white;
   background-color: #d9534f;
@@ -3348,21 +3056,21 @@ select[multiple].input-lg,
   background-color: white;
 }
 
-/* line 79, ../scss/common/bootstrap/_buttons.scss */
+/* line 64, ../scss/common/bootstrap/_buttons.scss */
 .btn-link {
   color: #428bca;
   font-weight: normal;
   cursor: pointer;
   border-radius: 0;
 }
-/* line 88, ../scss/common/bootstrap/_buttons.scss */
+/* line 73, ../scss/common/bootstrap/_buttons.scss */
 .btn-link, .btn-link:active, .btn-link[disabled], fieldset[disabled] .btn-link {
   background-color: transparent;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
 
-/* line 98, ../scss/common/bootstrap/_buttons.scss */
+/* line 83, ../scss/common/bootstrap/_buttons.scss */
 .btn-lg, .btn-group-lg > .btn {
   padding: 10px 16px;
   font-size: 18px;
@@ -3370,7 +3078,7 @@ select[multiple].input-lg,
   border-radius: 6px;
 }
 
-/* line 102, ../scss/common/bootstrap/_buttons.scss */
+/* line 87, ../scss/common/bootstrap/_buttons.scss */
 .btn-sm, .btn-group-sm > .btn {
   padding: 5px 10px;
   font-size: 12px;
@@ -3378,7 +3086,7 @@ select[multiple].input-lg,
   border-radius: 3px;
 }
 
-/* line 106, ../scss/common/bootstrap/_buttons.scss */
+/* line 91, ../scss/common/bootstrap/_buttons.scss */
 .btn-xs, .btn-group-xs > .btn {
   padding: 1px 5px;
   font-size: 12px;
@@ -3386,7 +3094,7 @@ select[multiple].input-lg,
   border-radius: 3px;
 }
 
-/* line 114, ../scss/common/bootstrap/_buttons.scss */
+/* line 99, ../scss/common/bootstrap/_buttons.scss */
 .btn-block {
   display: block;
   width: 100%;
@@ -3394,12 +3102,12 @@ select[multiple].input-lg,
   padding-right: 0;
 }
 
-/* line 122, ../scss/common/bootstrap/_buttons.scss */
+/* line 107, ../scss/common/bootstrap/_buttons.scss */
 .btn-block + .btn-block {
   margin-top: 5px;
 }
 
-/* line 130, ../scss/common/bootstrap/_buttons.scss */
+/* line 115, ../scss/common/bootstrap/_buttons.scss */
 input[type="submit"].btn-block,
 input[type="reset"].btn-block,
 input[type="button"].btn-block {
@@ -7824,10 +7532,346 @@ button.close {
     display: none !important;
   }
 }
+/* line 8, ../scss/common/_typography.scss */
+h1, h2, h3, h4, h5 {
+  font: 700 1em "Raleway", helvetica, sans-serif;
+}
+
+/* line 12, ../scss/common/_typography.scss */
+p {
+  font: normal 1em georgia, serif;
+  font-size: 1.3em;
+}
+
+/* line 7, ../scss/common/_classes.scss */
+.clearfix:before, .wrapper:before, footer ul:before,
+.clearfix:after,
+.wrapper:after,
+footer ul:after {
+  display: table;
+  content: "";
+  visibility: hidden;
+}
+
+/* line 13, ../scss/common/_classes.scss */
+.clearfix:after, .wrapper:after, footer ul:after {
+  clear: both;
+}
+
+/* line 21, ../scss/common/_classes.scss */
+.transition, .btn, button, .input-field, .signup-btn {
+  -webkit-transition: 0.2s all ease;
+  -moz-transition: 0.2s all ease;
+  -o-transition: 0.2s all ease;
+  -ms-transition: 0.2s all ease;
+  transition: 0.2s all ease;
+}
+
+/* line 29, ../scss/common/_classes.scss */
+.transition-slow, .signup-form-container, .signup-form-container .form-row, .signup-form-container .submit, .signup-form-container .close-signup-form, .signup-form {
+  -webkit-transition: 0.5s all ease;
+  -moz-transition: 0.5s all ease;
+  -o-transition: 0.5s all ease;
+  -ms-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+}
+
+/* line 4, ../scss/common/_layout.scss */
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* line 4, ../scss/common/_form-elements.scss */
+.btn, button {
+  font: 700 1em "Raleway", helvetica, sans-serif;
+  color: white;
+  background: #74c9bd;
+  -webkit-box-shadow: 0;
+  box-shadow: 0;
+  border: 0;
+}
+/* line 13, ../scss/common/_form-elements.scss */
+.btn:hover, button:hover {
+  background: #4fbbac;
+  color: white;
+}
+
+/* line 19, ../scss/common/_form-elements.scss */
+.btn-white {
+  background: white;
+  color: #74c9bd;
+  border: 2px solid transparent;
+}
+/* line 24, ../scss/common/_form-elements.scss */
+.btn-white:hover {
+  background: #74c9bd;
+  color: white;
+  border-color: white;
+}
+
+/* line 31, ../scss/common/_form-elements.scss */
+.form-row {
+  display: block;
+  margin-bottom: 1em;
+}
+
+/* line 36, ../scss/common/_form-elements.scss */
+label {
+  display: block;
+}
+
+/* line 40, ../scss/common/_form-elements.scss */
+.input-field {
+  width: 100%;
+  padding: 0.2em;
+  border: 1px solid #cccccc;
+  color: #222222;
+  font: 400 1em "Raleway", helvetica, sans-serif;
+}
+/* line 48, ../scss/common/_form-elements.scss */
+.input-field:focus {
+  border-color: #b3b3b3;
+  outline: 0;
+}
+
+/* line 54, ../scss/common/_form-elements.scss */
+input[type="checkbox"] {
+  float: left;
+  margin: 0.1em 0.5em 0 0;
+}
+
 /*  400px  */
 /*  640px  */
 /*  800px  */
 /*  1040px */
+/* line 16, ../scss/base/_normalize.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/* line 23, ../scss/base/_normalize.scss */
+audio,
+canvas,
+video {
+  display: inline-block;
+}
+
+/* line 29, ../scss/base/_normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/* line 37, ../scss/base/_normalize.scss */
+[hidden],
+template {
+  display: none;
+}
+
+/* line 47, ../scss/base/_normalize.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 52, ../scss/base/_normalize.scss */
+html {
+  font-size: 1em;
+  line-height: 1.5;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  color: #222;
+}
+
+/* line 61, ../scss/base/_normalize.scss */
+body {
+  margin: 0;
+}
+
+/* line 73, ../scss/base/_normalize.scss */
+a {
+  background: transparent;
+  text-decoration: none;
+  color: inherit;
+}
+
+/* line 80, ../scss/base/_normalize.scss */
+a:focus {
+  outline: thin dotted;
+}
+
+/* line 86, ../scss/base/_normalize.scss */
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* line 96, ../scss/base/_normalize.scss */
+ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 110, ../scss/base/_normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/* line 116, ../scss/base/_normalize.scss */
+b,
+strong {
+  font-weight: bold;
+}
+
+/* line 121, ../scss/base/_normalize.scss */
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+/* line 127, ../scss/base/_normalize.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 134, ../scss/base/_normalize.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 138, ../scss/base/_normalize.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 150, ../scss/base/_normalize.scss */
+img {
+  border: 0;
+}
+
+/* line 155, ../scss/base/_normalize.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* line 167, ../scss/base/_normalize.scss */
+figure {
+  margin: 0;
+}
+
+/* line 180, ../scss/base/_normalize.scss */
+legend {
+  border: 0;
+  padding: 0;
+}
+
+/* line 191, ../scss/base/_normalize.scss */
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+}
+
+/* line 200, ../scss/base/_normalize.scss */
+button,
+input {
+  line-height: normal;
+}
+
+/* line 209, ../scss/base/_normalize.scss */
+button,
+select {
+  text-transform: none;
+}
+
+/* line 221, ../scss/base/_normalize.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+/* line 228, ../scss/base/_normalize.scss */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/* line 235, ../scss/base/_normalize.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/* line 243, ../scss/base/_normalize.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+/* line 253, ../scss/base/_normalize.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* line 259, ../scss/base/_normalize.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 266, ../scss/base/_normalize.scss */
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+/* line 279, ../scss/base/_normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 290, ../scss/base/_normalize.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 4, ../scss/base/_base.scss */
+body {
+  font: 400 1em "Raleway", helvetica, sans-serif;
+  color: #222222;
+}
+
 /* line 4, ../scss/modules/_body.scss */
 .main-form {
   width: 100%;
@@ -7898,6 +7942,77 @@ header img {
   header img {
     width: 220px;
   }
+}
+
+/* line 30, ../scss/modules/_header.scss */
+.signup-form-container {
+  position: absolute;
+  top: 1em;
+  right: 10%;
+  width: 100px;
+  height: 2em;
+  max-height: 2em;
+  border-radius: 4px;
+  text-align: left;
+  background: #74c9bd;
+  color: white;
+  font: 700 1em "Raleway", helvetica, sans-serif;
+}
+/* line 44, ../scss/modules/_header.scss */
+.signup-form-container .form-row, .signup-form-container .submit, .signup-form-container .close-signup-form {
+  position: relative;
+  z-index: -1;
+  opacity: 0;
+  -webkit-transform: scale(0.8);
+}
+/* line 52, ../scss/modules/_header.scss */
+.signup-form-container.active {
+  padding: 1em;
+  max-height: 25em;
+  width: 300px;
+  height: 330px;
+}
+/* line 59, ../scss/modules/_header.scss */
+.signup-form-container.active.transition-complete .form-row, .signup-form-container.active.transition-complete .submit, .signup-form-container.active.transition-complete .close-signup-form {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  z-index: 1;
+}
+/* line 67, ../scss/modules/_header.scss */
+.signup-form-container .close-signup-form {
+  position: absolute;
+  right: 0.6em;
+  top: 0;
+  font-size: 1.6em;
+  cursor: pointer;
+}
+
+/* line 76, ../scss/modules/_header.scss */
+.signup-btn {
+  position: absolute;
+  width: 100%;
+  line-height: 2em;
+  text-align: center;
+  cursor: pointer;
+}
+/* line 85, ../scss/modules/_header.scss */
+.active .signup-btn span {
+  opacity: 0;
+}
+
+/* line 91, ../scss/modules/_header.scss */
+.signup-form {
+  color: white;
+  border-radius: 4px;
+}
+/* line 96, ../scss/modules/_header.scss */
+.signup-form .submit {
+  width: 100%;
+}
+
+/* line 102, ../scss/modules/_header.scss */
+.phone .input-field {
+  width: auto;
 }
 
 /* line 4, ../scss/modules/_footer.scss */

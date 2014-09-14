@@ -11,7 +11,7 @@ module.exports = function(grunt){
         }
       },
       concat_app: {
-        files: "js/**/*",
+        files: "_js/app.js",
         tasks: "concat:app"
       }
     },
@@ -28,7 +28,7 @@ module.exports = function(grunt){
       vendor: {
         src: [
           "_js/lib/modernizr/modernizr.js",
-          "_js/lib/jquery/dist/jquery.js"
+          "_js/lib/jquery/jquery.js"
           ],
         dest: "js/vendors.js"
       },

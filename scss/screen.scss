@@ -2,6 +2,9 @@
 
 
 
+// Bootstrap
+@import "common/bootstrap";
+
 
 // Common
 @import "common/typography";
@@ -9,21 +12,12 @@
 @import "common/layout";
 @import "common/colors";
 @import "common/form-elements";
-
+@import "common/media-queries";
 
 
 // Base
 @import "base/normalize";
 @import "base/base";
-
-
-
-
-// Bootstrap
-@import "common/bootstrap";
-@import "common/media-queries";
-
-
 
 
 // Modules

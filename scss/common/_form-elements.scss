@@ -5,10 +5,53 @@
 	font: $sans-bold;
 	color: white;
 	background: $teal;
+	-webkit-box-shadow: 0;
+	box-shadow: 0;
+	border: 0;
 	@extend .transition;
 
 	&:hover{
 		background: darken($teal, 10%);
 		color: white;
 	}
+}
+
+.btn-white{
+	background: white;
+	color: $teal;
+	border: 2px solid transparent;
+
+	&:hover{
+		background: $teal;
+		color: white;
+		border-color: white;
+	}
+}
+
+.form-row{
+	display: block;
+	margin-bottom: 1em;
+}
+
+label{
+	display: block;
+}
+
+.input-field{
+	width: 100%;
+	padding: 0.2em;
+	border: 1px solid $light-grey;
+	color: $black;
+	font: $sans;
+	@extend .transition;
+
+	&:focus{
+		border-color: darken($light-grey, 10%);
+		outline: 0;
+	}
+}
+
+input[type="checkbox"]{
+	float: left;
+	margin: 0.1em 0.5em 0 0;
 }
