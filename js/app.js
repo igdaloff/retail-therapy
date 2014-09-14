@@ -3,7 +3,7 @@ var $signupContainer = $('.signup-form-container');
 var $activeSignupContainer = $('.signup-form-container.active');
 var $formRow = $('.form-row');
 
-$('body .close-signup-form').on('click', function(){
+$('body, .close-signup-form').on('click', function(){
 	$signupContainer.removeClass('transition-complete');
 
 	$formRow.one('transitionend webkitTransitionEnd oTransitionEnd otransitionend MSTransitionEnd', function() {
