@@ -13,6 +13,14 @@ header{
 		position: absolute;
 		left: -9999em;
 	}
+}
+
+.main-logo{
+	@include smaller-than(medium){
+		width: 50%;
+		display: inline-block;
+		float: left;
+	}
 
 	img{
 		width: 100%;
@@ -30,7 +38,7 @@ header{
 .signup-form-container{
 	position: absolute;
 	top: 1em;
-	right: 10%;
+	right: 7.5%;
 	width: 100px;
 	height: 2em;
 	max-height: 2em;
@@ -61,6 +69,11 @@ header{
 				-webkit-transform: scale(1);
 				z-index: 1;
 			}
+		}
+
+		@include smaller-than(medium){
+			width: 90%;
+			right: 5%;
 		}
 	}
 
