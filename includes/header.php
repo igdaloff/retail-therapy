@@ -19,6 +19,6 @@
 
   <header class="wrapper">
     <h1>Retail Therapy</h1>
-    <a href="/" class="main-logo"><img src="/images/main-logo.png" alt="Retail Therapy logo" /></a>
+    <a href="/" class="main-logo"><img src="/images/skyview-logo.png" alt="Skyview Communications logo" /></a>
     <a href="/signup" class="signup-btn btn">Sign Up</a>
   </header>

@@ -7597,14 +7597,14 @@ footer ul:after {
 .btn, button {
   font: 700 1em "Raleway", helvetica, sans-serif;
   color: white;
-  background: #74c9bd;
+  background: #00b7f1;
   -webkit-box-shadow: 0;
   box-shadow: 0;
   border: 0;
 }
 /* line 13, ../scss/common/_form-elements.scss */
 .btn:hover, button:hover {
-  background: #4fbbac;
+  background: #0090be;
   color: white;
   text-decoration: none;
 }
@@ -7612,12 +7612,12 @@ footer ul:after {
 /* line 20, ../scss/common/_form-elements.scss */
 .btn-white {
   background: white;
-  color: #74c9bd;
+  color: #00b7f1;
   border: 2px solid transparent;
 }
 /* line 25, ../scss/common/_form-elements.scss */
 .btn-white:hover {
-  background: #74c9bd;
+  background: #00b7f1;
   color: white;
   border-color: white;
 }
@@ -7953,7 +7953,7 @@ body {
 /* line 4, ../scss/modules/_header.scss */
 header {
   padding: 1em 0;
-  border-bottom: 4px solid #ed4d6c;
+  border-bottom: 4px solid #00b7f1;
 }
 @media (max-width: 40em) {
   /* line 4, ../scss/modules/_header.scss */
@@ -8003,7 +8003,7 @@ footer {
 }
 /* line 10, ../scss/modules/_footer.scss */
 footer .wrapper {
-  border-top: 4px solid #ed4d6c;
+  border-top: 4px solid #00b7f1;
 }
 /* line 18, ../scss/modules/_footer.scss */
 footer li {

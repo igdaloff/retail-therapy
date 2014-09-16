@@ -14,7 +14,7 @@
       </div>
       <div class="footer-admin">
         <img src="/images/acceller.png" alt="Acceller" />
-        <small>&copy; 2014 Retail Therapy. All Rights Reserved.</small>
+        <small>&copy; 2014 Skyview Communications. All Rights Reserved.</small>
       </div>
     </div>
   </footer>

@@ -1,7 +1,7 @@
 <?php include("../includes/header.php"); ?>
 
 <div class="wrapper main-content terms">
-	<h3>Sign Up for Retail Therapy</h3>
+	<h3>Sign Up for Skyview</h3>
 	<div class="signup-form-container">
 	  <form id="form1" name="form1" class="signup-form" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate action="https://tpagold.wufoo.com/forms/z159wtln1fccju4/#public">
 	    <ul>

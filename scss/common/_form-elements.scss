@@ -4,14 +4,14 @@
 .btn, button{
 	font: $sans-bold;
 	color: white;
-	background: $teal;
+	background: $blue;
 	-webkit-box-shadow: 0;
 	box-shadow: 0;
 	border: 0;
 	@extend .transition;
 
 	&:hover{
-		background: darken($teal, 10%);
+		background: darken($blue, 10%);
 		color: white;
 		text-decoration: none;
 	}
@@ -19,11 +19,11 @@
 
 .btn-white{
 	background: white;
-	color: $teal;
+	color: $blue;
 	border: 2px solid transparent;
 
 	&:hover{
-		background: $teal;
+		background: $blue;
 		color: white;
 		border-color: white;
 	}
