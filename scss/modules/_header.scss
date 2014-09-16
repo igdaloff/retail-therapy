@@ -16,10 +16,11 @@ header{
 }
 
 .main-logo{
+	float: left;
+
 	@include smaller-than(medium){
 		width: 50%;
 		display: inline-block;
-		float: left;
 	}
 
 	img{
@@ -36,75 +37,19 @@ header{
 
 //Sign Up Form
 .signup-form-container{
-	position: absolute;
-	top: 1em;
-	right: 7.5%;
-	width: 100px;
-	height: 2em;
-	max-height: 2em;
-	border-radius: 4px;
-	text-align: left;
-	background: $teal;
-	color: white;
-	font: $sans-bold;
-	@extend .transition-slow;
+	@include larger-than(medium){
+		width: 50%;
 
-	.form-row, .submit, .close-signup-form{
-		position: relative;
-		z-index: -1;
-		opacity: 0;
-		-webkit-transform: scale(0.8);
-		@extend .transition-slow;
 	}
 
-	&.active{
-		padding: 1em;
-		max-height: 25em;
-		width: 300px;
-		height: 330px;
-
-		&.transition-complete{
-			.form-row, .submit, .close-signup-form{
-				opacity: 1;
-				-webkit-transform: scale(1);
-				z-index: 1;
-			}
-		}
-
-		@include smaller-than(medium){
-			width: 90%;
-			right: 5%;
-		}
-	}
-
-	.close-signup-form{
-		position: absolute;
-		right: 0.6em;
-		top: 0;
-		font-size: 1.6em;
-		cursor: pointer;
-	}
 }
 
 .signup-btn{
-	position: absolute;
-	width: 100%;
-	line-height: 2em;
-	text-align: center;
-	@extend .transition;
-	cursor: pointer;
-
-	.active &{
-		span{
-			opacity: 0;
-		}
-	}
+	float: right;
 }
 
 .signup-form{
-	color: white;
-	border-radius: 4px;
-	@extend .transition-slow;
+
 
 	.submit{
 		width: 100%;

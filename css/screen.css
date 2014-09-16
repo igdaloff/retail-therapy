@@ -7570,7 +7570,7 @@ footer ul:after {
 }
 
 /* line 21, ../scss/common/_classes.scss */
-.transition, .btn, button, .input-field, .signup-btn {
+.transition, .btn, button, .input-field {
   -webkit-transition: 0.2s all ease;
   -moz-transition: 0.2s all ease;
   -o-transition: 0.2s all ease;
@@ -7579,7 +7579,7 @@ footer ul:after {
 }
 
 /* line 29, ../scss/common/_classes.scss */
-.transition-slow, .signup-form-container, .signup-form-container .form-row, .signup-form-container .submit, .signup-form-container .close-signup-form, .signup-form {
+.transition-slow {
   -webkit-transition: 0.5s all ease;
   -moz-transition: 0.5s all ease;
   -o-transition: 0.5s all ease;
@@ -7606,33 +7606,34 @@ footer ul:after {
 .btn:hover, button:hover {
   background: #4fbbac;
   color: white;
+  text-decoration: none;
 }
 
-/* line 19, ../scss/common/_form-elements.scss */
+/* line 20, ../scss/common/_form-elements.scss */
 .btn-white {
   background: white;
   color: #74c9bd;
   border: 2px solid transparent;
 }
-/* line 24, ../scss/common/_form-elements.scss */
+/* line 25, ../scss/common/_form-elements.scss */
 .btn-white:hover {
   background: #74c9bd;
   color: white;
   border-color: white;
 }
 
-/* line 31, ../scss/common/_form-elements.scss */
+/* line 32, ../scss/common/_form-elements.scss */
 .form-row {
   display: block;
   margin-bottom: 1em;
 }
 
-/* line 36, ../scss/common/_form-elements.scss */
+/* line 37, ../scss/common/_form-elements.scss */
 label {
   display: block;
 }
 
-/* line 40, ../scss/common/_form-elements.scss */
+/* line 41, ../scss/common/_form-elements.scss */
 .input-field {
   width: 100%;
   padding: 0.2em;
@@ -7640,13 +7641,13 @@ label {
   color: #222222;
   font: 400 1em "Raleway", helvetica, sans-serif;
 }
-/* line 48, ../scss/common/_form-elements.scss */
+/* line 49, ../scss/common/_form-elements.scss */
 .input-field:focus {
   border-color: #b3b3b3;
   outline: 0;
 }
 
-/* line 54, ../scss/common/_form-elements.scss */
+/* line 55, ../scss/common/_form-elements.scss */
 input[type="checkbox"] {
   float: left;
   margin: 0.1em 0.5em 0 0;
@@ -7945,99 +7946,46 @@ header h1 {
   left: -9999em;
 }
 
+/* line 18, ../scss/modules/_header.scss */
+.main-logo {
+  float: left;
+}
 @media (max-width: 40em) {
   /* line 18, ../scss/modules/_header.scss */
   .main-logo {
     width: 50%;
     display: inline-block;
-    float: left;
   }
 }
-/* line 25, ../scss/modules/_header.scss */
+/* line 26, ../scss/modules/_header.scss */
 .main-logo img {
   width: 100%;
 }
 @media (min-width: 40em) {
-  /* line 25, ../scss/modules/_header.scss */
+  /* line 26, ../scss/modules/_header.scss */
   .main-logo img {
     width: 220px;
   }
 }
 
-/* line 38, ../scss/modules/_header.scss */
-.signup-form-container {
-  position: absolute;
-  top: 1em;
-  right: 7.5%;
-  width: 100px;
-  height: 2em;
-  max-height: 2em;
-  border-radius: 4px;
-  text-align: left;
-  background: #74c9bd;
-  color: white;
-  font: 700 1em "Raleway", helvetica, sans-serif;
-}
-/* line 52, ../scss/modules/_header.scss */
-.signup-form-container .form-row, .signup-form-container .submit, .signup-form-container .close-signup-form {
-  position: relative;
-  z-index: -1;
-  opacity: 0;
-  -webkit-transform: scale(0.8);
-}
-/* line 60, ../scss/modules/_header.scss */
-.signup-form-container.active {
-  padding: 1em;
-  max-height: 25em;
-  width: 300px;
-  height: 330px;
-}
-/* line 67, ../scss/modules/_header.scss */
-.signup-form-container.active.transition-complete .form-row, .signup-form-container.active.transition-complete .submit, .signup-form-container.active.transition-complete .close-signup-form {
-  opacity: 1;
-  -webkit-transform: scale(1);
-  z-index: 1;
-}
-@media (max-width: 40em) {
-  /* line 60, ../scss/modules/_header.scss */
-  .signup-form-container.active {
-    width: 90%;
-    right: 5%;
+@media (min-width: 40em) {
+  /* line 39, ../scss/modules/_header.scss */
+  .signup-form-container {
+    width: 50%;
   }
 }
-/* line 80, ../scss/modules/_header.scss */
-.signup-form-container .close-signup-form {
-  position: absolute;
-  right: 0.6em;
-  top: 0;
-  font-size: 1.6em;
-  cursor: pointer;
-}
 
-/* line 89, ../scss/modules/_header.scss */
+/* line 47, ../scss/modules/_header.scss */
 .signup-btn {
-  position: absolute;
-  width: 100%;
-  line-height: 2em;
-  text-align: center;
-  cursor: pointer;
-}
-/* line 98, ../scss/modules/_header.scss */
-.active .signup-btn span {
-  opacity: 0;
+  float: right;
 }
 
-/* line 104, ../scss/modules/_header.scss */
-.signup-form {
-  color: white;
-  border-radius: 4px;
-}
-/* line 109, ../scss/modules/_header.scss */
+/* line 54, ../scss/modules/_header.scss */
 .signup-form .submit {
   width: 100%;
 }
 
-/* line 115, ../scss/modules/_header.scss */
+/* line 60, ../scss/modules/_header.scss */
 .phone .input-field {
   width: auto;
 }
