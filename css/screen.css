@@ -7929,6 +7929,27 @@ body {
   }
 }
 
+@media (min-width: 40em) {
+  /* line 45, ../scss/modules/_body.scss */
+  .signup-form-container {
+    width: 50%;
+  }
+}
+/* line 50, ../scss/modules/_body.scss */
+.signup-form-container .choice a {
+  text-decoration: underline;
+}
+
+/* line 56, ../scss/modules/_body.scss */
+.signup-form .submit {
+  width: 100%;
+}
+
+/* line 62, ../scss/modules/_body.scss */
+.phone .input-field {
+  width: auto;
+}
+
 /* line 4, ../scss/modules/_header.scss */
 header {
   padding: 1em 0;
@@ -7968,26 +7989,9 @@ header h1 {
   }
 }
 
-@media (min-width: 40em) {
-  /* line 39, ../scss/modules/_header.scss */
-  .signup-form-container {
-    width: 50%;
-  }
-}
-
-/* line 47, ../scss/modules/_header.scss */
+/* line 35, ../scss/modules/_header.scss */
 .signup-btn {
   float: right;
-}
-
-/* line 54, ../scss/modules/_header.scss */
-.signup-form .submit {
-  width: 100%;
-}
-
-/* line 60, ../scss/modules/_header.scss */
-.phone .input-field {
-  width: auto;
 }
 
 /* line 4, ../scss/modules/_footer.scss */

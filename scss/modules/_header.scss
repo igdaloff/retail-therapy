@@ -32,33 +32,6 @@ header{
 	}
 }
 
-
-
-
-//Sign Up Form
-.signup-form-container{
-	@include larger-than(medium){
-		width: 50%;
-
-	}
-
-}
-
 .signup-btn{
 	float: right;
 }
-
-.signup-form{
-
-
-	.submit{
-		width: 100%;
-	}
-}
-
-.phone{
-	.input-field{
-		width: auto;
-	}
-}
-

@@ -37,3 +37,29 @@
 		padding-right: 5%;
 	}
 }
+
+
+
+
+//Sign Up Form
+.signup-form-container{
+	@include larger-than(medium){
+		width: 50%;
+	}
+
+	.choice a{
+		text-decoration: underline;
+	}
+}
+
+.signup-form{
+	.submit{
+		width: 100%;
+	}
+}
+
+.phone{
+	.input-field{
+		width: auto;
+	}
+}
